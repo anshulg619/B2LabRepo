@@ -1,0 +1,14 @@
+Q1. Create a textfile containing a messege "I am Studing in C-DAC". Move it to a git repository through all the steps. Then modify the file to a secound line "I am appearing for the DAC course". Reapeat the above process. On the github page, the file should now show two lines if we open the file there.
+Use Docker to deploy a tomcat server. verify that it can be accessed. deplaoy this as a Kubernetes deployment there instances. Now verify that it can be accessed via Kubernetes pod. Delete one of the pods and prove that a new pod got created.
+
+echo "# B2LabRepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/anshulg619/B2LabRepo.git
+git push -u origin main
+
+git remote add origin https://github.com/anshulg619/B2LabRepo.git
+git branch -M main
+git push -u origin main
